@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "rootDir": "src",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+//    "strict": true,
+//    "noImplicitAny": true,
+//    "resolveJsonModule": true,
+    "paths": {
+      "@app/*" : ["./src/*"]
+    }
+  },
+  "lib": ["es2015"]
+}
